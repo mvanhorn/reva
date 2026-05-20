@@ -23,7 +23,7 @@ basic = "{{grpc_address}}"
 
 [grpc.services.ocminvitemanager]
 driver = "json"
-provider_domain = "cesnet.cz"
+provider_domain = "cesnet"
 
 [grpc.services.ocminvitemanager.drivers.json]
 file = "{{invite_token_file}}"
@@ -38,7 +38,7 @@ providers = "{{file_providers}}"
 driver = "json"
 webdav_endpoint = "http://{{cesnethttp_address}}"
 webapp_template = "http://{{cesnethttp_address}}/external/sciencemesh/{{.Token}}{relative-path-to-shared-resource}"
-provider_domain = "cesnet.cz"
+provider_domain = "cesnet"
 
 [grpc.services.ocmshareprovider.drivers.json]
 file = "{{ocm_share_cesnet_file}}"

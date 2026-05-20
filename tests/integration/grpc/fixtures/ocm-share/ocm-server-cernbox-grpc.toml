@@ -45,7 +45,7 @@ machine = "{{cernboxmachineauth_address}}"
 
 [grpc.services.ocminvitemanager]
 driver = "json"
-provider_domain = "cernbox.cern.ch"
+provider_domain = "cernbox"
 
 [grpc.services.ocminvitemanager.drivers.json]
 file = "{{invite_token_file}}"
@@ -60,7 +60,7 @@ providers = "{{file_providers}}"
 driver = "json"
 webdav_endpoint = "http://{{cernboxwebdav_address}}"
 webapp_template = "http://{{cernboxwebdav_address}}/external/sciencemesh/{{.Token}}{relative-path-to-shared-resource}"
-provider_domain = "cernbox.cern.ch"
+provider_domain = "cernbox"
 
 [grpc.services.ocmshareprovider.drivers.json]
 file = "{{ocm_share_cernbox_file}}"

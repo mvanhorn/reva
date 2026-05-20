@@ -3,7 +3,7 @@
 		"name": "cernbox",
 		"full_name": "CERNBox",
 		"organization": "CERN",
-		"domain": "cernbox.cern.ch",
+		"domain": "cernbox",
 		"homepage": "https://cernbox.web.cern.ch",
 		"description": "CERNBox provides cloud data storage to all CERN users.",
 		"services": [
@@ -26,8 +26,8 @@
 		"name": "oc-cesnet",
 		"full_name": "ownCloud@CESNET",
 		"organization": "CESNET",
-		"domain": "cesnet.cz",
-		"homepage": "https://owncloud.cesnet.cz",
+		"domain": "cesnet",
+		"homepage": "https://owncloud.cesnet",
 		"description": "OwnCloud has been designed for individual users.",
 		"services": [
 			{
