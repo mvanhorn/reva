@@ -20,7 +20,7 @@ basic = "{{grpc_address}}"
 
 [grpc.services.ocminvitemanager]
 driver = "{{ocm_driver}}"
-provider_domain = "cernbox"
+provider_domain = "127.0.0.1:12345"
 
 [grpc.services.ocminvitemanager.drivers.json]
 file = "{{invite_token_file}}"
